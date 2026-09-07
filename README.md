@@ -2,6 +2,8 @@
 
 En modern fullstack-applikation för hantering av uppgifter med komplett statushistorik.
 
+![img.png](img.png)
+
 Applikationen är byggd för att demonstrera en produktionsnära lösning med React, Spring Boot och PostgreSQL samt visa hur AI-assisterad utveckling kan användas för att accelerera utvecklingen av moderna system.
 
 ---
