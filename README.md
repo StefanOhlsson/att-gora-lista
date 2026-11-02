@@ -335,6 +335,19 @@ message
 
 # Tester
 
+GitHub Actions kör backendens bygge och tester samt frontendens typkontroll och bygge vid varje push och pull request.
+
+Frontendens beroenden har exakta versioner och en incheckad `package-lock.json`. Använd Node.js 22 och installera med `npm ci`, som också används i CI och Dockerbygget:
+
+```bash
+cd frontend
+npm ci
+npm run typecheck
+npm run build
+```
+
+Vid avsiktliga beroendeuppdateringar: uppdatera både `package.json` och `package-lock.json` och kör kontrollerna ovan.
+
 Backend innehåller:
 
 ## Service-tester
